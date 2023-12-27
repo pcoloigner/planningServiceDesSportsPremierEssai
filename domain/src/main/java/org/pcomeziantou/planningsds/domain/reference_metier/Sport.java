@@ -1,4 +1,4 @@
-package org.pcomeziantou.planningsds.domain.reference;
+package org.pcomeziantou.planningsds.domain.reference_metier;
 
 /*
 Dans cette classe, OU DANS UNE AUTRE CLASSE (Builder, ...)

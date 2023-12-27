@@ -1,7 +1,9 @@
 module test.domain {
-    // requires org.pcomeziantou.domain;
-    //requires org.junit.jupiter;
+    requires org.pcomeziantou.planningsds.domain;
+    //requires org.junit.jupiter.api;
     //opens org.pcomeziantou.planningsds.domain.test to org.junit.platform.commons;
+    //opens test.domain to org.junit.platform.commons;
+    opens test.domain to org.junit.jupiter.api;
     // opens org.pcomeziantou.planningsds.domain.test.technique to org.junit.platform.commons;
     // opens org.pcomeziantou.planningsds.domain.test.calendrier to org.junit.platform.commons;
     // opens org.pcomeziantou.planningsds.domain.test.servicedessports to org.junit.platform.commons;

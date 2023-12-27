@@ -1,4 +1,4 @@
-package org.pcomeziantou.planningsds.domain.reference;
+package org.pcomeziantou.planningsds.domain.reference_metier;
 
 
 //Enum ou Record que l'on peut compléter dynamiquement ???

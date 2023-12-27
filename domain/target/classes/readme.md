@@ -1,0 +1,1 @@
+Pour le moment, la gestion des modules java a été désactivée.

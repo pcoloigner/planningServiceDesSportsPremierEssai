@@ -1,4 +1,4 @@
-package org.pcomeziantou.planningsds.domain.reference;
+package org.pcomeziantou.planningsds.domain.reference_metier;
 
 /**
  * A quoi, par qui sera utilisé le créneau.
