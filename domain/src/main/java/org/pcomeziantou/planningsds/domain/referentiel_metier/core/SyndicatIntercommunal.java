@@ -1,4 +1,4 @@
-package org.pcomeziantou.planningsds.domain.reference_metier;
+package org.pcomeziantou.planningsds.domain.referentiel_metier.core;
 
 import java.util.List;
 
