@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.pcomeziantou.planningsds.domain.referentiel_metier.api.InitialiseReferentielMetier;
 import org.pcomeziantou.planningsds.domain.referentiel_metier.core.Commune;
+import org.pcomeziantou.planningsds.domain.referentiel_metier.core.EquipementSportif;
 import org.pcomeziantou.planningsds.domain.referentiel_metier.core.Sport;
 import org.pcomeziantou.planningsds.domain.referentiel_metier.core.SyndicatIntercommunal;
 
@@ -37,6 +38,12 @@ public class InitialiseReferentielMetierImpl implements InitialiseReferentielMet
     public List<Commune> communesDUnsyndicat(SyndicatIntercommunal syndicat) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'communesDUnsyndicat'");
+    }
+
+    @Override
+    public List<EquipementSportif> equipementSportifs() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'equipementSportifs'");
     }
 
 }

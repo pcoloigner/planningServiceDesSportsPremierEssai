@@ -5,6 +5,8 @@ package org.pcomeziantou.planningsds.domain.referentiel_metier.core;
  * exemple : Entraînement Filles Régionale FFVB
  *
  * C'est juste un libellé
+ * 
+ * Revoir le but de ce Record !
  *
  * @param libelleCourt
  * @param libelleLong

@@ -4,11 +4,6 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
@@ -18,25 +13,28 @@
 *.zip
 *.tar.gz
 *.rar
+*.lst
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
 
 ### VS Code ###
 .vscode/
 
 *domain_ko*
 
-*domain/target/**
+**/domain/target/**
 *domain/target
+domain/target/maven-status/**
+
 
 
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+
+**/src/main/**/target/
+**/src/test/**/target/
 
 ### STS ###
 .apt_generated
